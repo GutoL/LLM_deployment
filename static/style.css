@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  #text-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  #probabilityChart {
+    margin-top: 20px;
+    height: 300px;
+  }
+  
+  #greeting {
+    margin-top: 20px;
+  }
+  

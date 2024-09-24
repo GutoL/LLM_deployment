@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greeting App</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1>Sentiment Analysis</h1>
+      <input id="text-input" class="form-control" type="text" placeholder="Enter text" />
+      <canvas id="probabilityChart"></canvas>
+      <p id="greeting"></p>
+    </div>
+
+    <button id="text-button" class="btn btn-primary">Submit Text</button>
+
+    <!-- JQuery and Chart.js -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
